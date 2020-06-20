@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: content-box;
+    background-color: saddlebrown;
+    background-image: url("bot.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-x: right;
+}
+.box{
+    width: 30vw;
+    min-width: 300px;
+    height: auto;
+    margin: 70px auto;
+    border-radius: 5px;
+}
+.box header{
+    background-color: rgb(65, 47, 182);
+    text-align: center;
+    padding: 2px;
+    text-transform: capitalize;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+header > .header-title{
+    color: whitesmoke;
+}
+.chat-screen{
+    background-color: white;
+    padding: 10px 5px;
+    height: 300px;
+    overflow: auto;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    background-color: whitesmoke;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+#message-box{
+    width: 98%;
+    height: 100%;
+    border: none;  
+}
+li{
+    list-style: none;
+}
+.userTag{
+    font-weight: bold;
+    color: teal;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.userValue, .paddyValue{
+    font-style: italic;
+}
+.botTag{
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: red;
+}
+.footer{
+    color: wheat;
+    text-align: center;
+
+}
